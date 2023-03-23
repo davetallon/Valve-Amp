@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GrooveStation));
             this.panel1 = new System.Windows.Forms.Panel();
             this.l_trackPositionTimer = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.L_PlayStateLabel = new System.Windows.Forms.Label();
             this.tb_Volume = new System.Windows.Forms.TrackBar();
             this.btn_Previous = new System.Windows.Forms.Button();
@@ -42,24 +41,25 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_Mover = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_Ttitle = new System.Windows.Forms.Label();
             this.lb_Songs = new System.Windows.Forms.ListBox();
             this.pb_SongProgress = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Player = new AxWMPLib.AxWindowsMediaPlayer();
             this.lb_Runtime = new System.Windows.Forms.ListBox();
             this.lbl_Tracks = new System.Windows.Forms.Label();
             this.lbl_Runtime = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.Player = new AxWMPLib.AxWindowsMediaPlayer();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Volume)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,17 +88,6 @@
             this.l_trackPositionTimer.Size = new System.Drawing.Size(35, 13);
             this.l_trackPositionTimer.TabIndex = 6;
             this.l_trackPositionTimer.Text = "label1";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MusicStation.Properties.Resources.icons8_mute_unmute_48;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 33);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // L_PlayStateLabel
             // 
@@ -152,7 +141,7 @@
             // 
             // btn_Play
             // 
-            this.btn_Play.Location = new System.Drawing.Point(731, 14);
+            this.btn_Play.Location = new System.Drawing.Point(725, 13);
             this.btn_Play.Name = "btn_Play";
             this.btn_Play.Size = new System.Drawing.Size(93, 74);
             this.btn_Play.TabIndex = 0;
@@ -194,18 +183,6 @@
             this.btn_Mover.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Mover_MouseMove);
             this.btn_Mover.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_Mover_MouseUp);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MusicStation.Properties.Resources.icons8_close_window_100;
-            this.pictureBox1.InitialImage = global::MusicStation.Properties.Resources.icons8_close_window_100;
-            this.pictureBox1.Location = new System.Drawing.Point(1481, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // lbl_Ttitle
             // 
             this.lbl_Ttitle.AutoSize = true;
@@ -242,16 +219,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // Player
-            // 
-            this.Player.Enabled = true;
-            this.Player.Location = new System.Drawing.Point(44, 474);
-            this.Player.Name = "Player";
-            this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
-            this.Player.Size = new System.Drawing.Size(442, 70);
-            this.Player.TabIndex = 0;
-            this.Player.MediaError += new AxWMPLib._WMPOCXEvents_MediaErrorEventHandler(this.Player_MediaError);
             // 
             // lb_Runtime
             // 
@@ -296,11 +263,45 @@
             this.panel3.Size = new System.Drawing.Size(428, 38);
             this.panel3.TabIndex = 11;
             // 
+            // Player
+            // 
+            this.Player.Enabled = true;
+            this.Player.Location = new System.Drawing.Point(44, 474);
+            this.Player.Name = "Player";
+            this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
+            this.Player.Size = new System.Drawing.Size(442, 70);
+            this.Player.TabIndex = 0;
+            this.Player.MediaError += new AxWMPLib._WMPOCXEvents_MediaErrorEventHandler(this.Player_MediaError);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MusicStation.Properties.Resources.icons8_close_window_100;
+            this.pictureBox1.InitialImage = global::MusicStation.Properties.Resources.icons8_close_window_100;
+            this.pictureBox1.Location = new System.Drawing.Point(1481, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MusicStation.Properties.Resources.icons8_mute_unmute_48;
+            this.pictureBox2.Location = new System.Drawing.Point(27, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // GrooveStation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackgroundImage = global::MusicStation.Properties.Resources.ValveAmpBase_JPG;
             this.ClientSize = new System.Drawing.Size(1581, 712);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.lb_Runtime);
@@ -313,16 +314,17 @@
             this.Name = "GrooveStation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GrooveStation";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(119)))));
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Volume)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 

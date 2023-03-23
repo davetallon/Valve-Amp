@@ -110,5 +110,8 @@
   <ItemGroup>
     <None Include="Assets\icons8-mute-unmute-48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ValveAmpBase_JPG.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
