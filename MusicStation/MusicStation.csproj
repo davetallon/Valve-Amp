@@ -63,19 +63,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -111,7 +111,26 @@
     <None Include="Assets\icons8-mute-unmute-48.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ValveAmpBase_JPG.jpg" />
+    <Content Include="Assets\ART_BASE_Amp.jpg" />
+    <Content Include="Assets\ART_BASE_Amp.png" />
+    <Content Include="Assets\ART_BASE_Valves.jpg" />
+    <Content Include="Assets\ART_BASE_Volume.png" />
+    <Content Include="Assets\ART_BASE_Volume_NOShadow.png" />
+    <Content Include="Assets\ART_HOVER_Close.png" />
+    <Content Include="Assets\ART_HOVER_Close_B.png" />
+    <Content Include="Assets\ART_HOVER_Credits.png" />
+    <Content Include="Assets\ART_HOVER_HeadphonesMute.png" />
+    <Content Include="Assets\ART_HOVER_Load.png" />
+    <Content Include="Assets\ART_HOVER_NextSong.png" />
+    <Content Include="Assets\ART_HOVER_Play.png" />
+    <Content Include="Assets\ART_HOVER_PreviousSong.png" />
+    <Content Include="Assets\ART_HOVER_Volume.png" />
+    <Content Include="Assets\ART_PLAYING_Headphones.png" />
+    <Content Include="Assets\ART_PLAYING_Pause.png" />
+    <Content Include="Assets\ART_PLAYING_Valves.png" />
+    <Content Include="Assets\CREDITS %282%29.png" />
+    <Content Include="Assets\CREDITS %283%29.png" />
+    <Content Include="Assets\CREDITS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

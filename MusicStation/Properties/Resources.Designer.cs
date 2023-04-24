@@ -63,6 +63,226 @@ namespace MusicStation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ART_BASE_Amp {
+            get {
+                object obj = ResourceManager.GetObject("ART_BASE_Amp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_BASE_Amp1 {
+            get {
+                object obj = ResourceManager.GetObject("ART_BASE_Amp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_BASE_Valves {
+            get {
+                object obj = ResourceManager.GetObject("ART_BASE_Valves", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_BASE_Volume {
+            get {
+                object obj = ResourceManager.GetObject("ART_BASE_Volume", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_BASE_Volume_NOShadow {
+            get {
+                object obj = ResourceManager.GetObject("ART_BASE_Volume_NOShadow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_BASE_Volume1 {
+            get {
+                object obj = ResourceManager.GetObject("ART_BASE_Volume1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_Close {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_Close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_Close_B {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_Close_B", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_Credits {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_Credits", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_HeadphonesMute {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_HeadphonesMute", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_Load {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_Load", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_NextSong {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_NextSong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_Play {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_Play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_PreviousSong {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_PreviousSong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_HOVER_Volume {
+            get {
+                object obj = ResourceManager.GetObject("ART_HOVER_Volume", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_PLAYING_Headphones {
+            get {
+                object obj = ResourceManager.GetObject("ART_PLAYING_Headphones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_PLAYING_Pause {
+            get {
+                object obj = ResourceManager.GetObject("ART_PLAYING_Pause", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ART_PLAYING_Valves {
+            get {
+                object obj = ResourceManager.GetObject("ART_PLAYING_Valves", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CREDITS {
+            get {
+                object obj = ResourceManager.GetObject("CREDITS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CREDITS__2_ {
+            get {
+                object obj = ResourceManager.GetObject("CREDITS (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CREDITS__3_ {
+            get {
+                object obj = ResourceManager.GetObject("CREDITS (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CREDITS1 {
+            get {
+                object obj = ResourceManager.GetObject("CREDITS1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_close_window_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-close-window-100", resourceCulture);
@@ -73,9 +293,9 @@ namespace MusicStation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_mute_unmute_48 {
+        internal static System.Drawing.Bitmap icons8_close_window_1001 {
             get {
-                object obj = ResourceManager.GetObject("icons8-mute-unmute-48", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-close-window-1001", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +303,19 @@ namespace MusicStation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ValveAmpBase_JPG {
+        internal static System.Drawing.Bitmap icons8_close_window_1002 {
             get {
-                object obj = ResourceManager.GetObject("ValveAmpBase_JPG", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-close-window-1002", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_mute_unmute_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-mute-unmute-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

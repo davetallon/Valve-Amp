@@ -118,13 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-close-window-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ART_PLAYING_Valves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_PLAYING_Valves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CREDITS (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CREDITS (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_Close_B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_Close_B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CREDITS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CREDITS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_NextSong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_NextSong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_PLAYING_Headphones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_PLAYING_Headphones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_Volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_Volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_PLAYING_Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_PLAYING_Pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_Load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_Load.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_BASE_Volume_NOShadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_BASE_Volume_NOShadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-window-1002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\icons8-close-window-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_Credits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_Credits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_HeadphonesMute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_HeadphonesMute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_BASE_Volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_BASE_Volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_HOVER_PreviousSong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_HOVER_PreviousSong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-window-1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\icons8-close-window-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-mute-unmute-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\icons8-mute-unmute-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ValveAmpBase_JPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\ValveAmpBase_JPG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ART_BASE_Volume1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_BASE_Volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_BASE_Amp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_BASE_Amp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_BASE_Valves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_BASE_Valves.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ART_BASE_Amp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\ART_BASE_Amp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-close-window-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\icons8-close-window-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CREDITS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CREDITS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CREDITS (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\CREDITS (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

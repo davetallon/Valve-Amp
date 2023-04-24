@@ -30,188 +30,91 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GrooveStation));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.l_trackPositionTimer = new System.Windows.Forms.Label();
-            this.L_PlayStateLabel = new System.Windows.Forms.Label();
+            this.pb_Headphones_Playing = new System.Windows.Forms.PictureBox();
             this.tb_Volume = new System.Windows.Forms.TrackBar();
-            this.btn_Previous = new System.Windows.Forms.Button();
-            this.btn_Next = new System.Windows.Forms.Button();
-            this.btn_Load = new System.Windows.Forms.Button();
-            this.btn_Play = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_Mover = new System.Windows.Forms.Button();
-            this.lbl_Ttitle = new System.Windows.Forms.Label();
             this.lb_Songs = new System.Windows.Forms.ListBox();
             this.pb_SongProgress = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lb_Runtime = new System.Windows.Forms.ListBox();
-            this.lbl_Tracks = new System.Windows.Forms.Label();
-            this.lbl_Runtime = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.Player = new AxWMPLib.AxWindowsMediaPlayer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.panel1.SuspendLayout();
+            this.pb_ValvesOff = new System.Windows.Forms.PictureBox();
+            this.pb_Volume = new System.Windows.Forms.PictureBox();
+            this.pb_PlayPause = new System.Windows.Forms.PictureBox();
+            this.pb_Pause = new System.Windows.Forms.PictureBox();
+            this.pb_Headphones_Mute = new System.Windows.Forms.PictureBox();
+            this.pb_CloseApp = new System.Windows.Forms.PictureBox();
+            this.pb_NextSong = new System.Windows.Forms.PictureBox();
+            this.pb_PrevSong = new System.Windows.Forms.PictureBox();
+            this.pb_LoadGrooves = new System.Windows.Forms.PictureBox();
+            this.pb_VolumeHover = new System.Windows.Forms.PictureBox();
+            this.pb_valvesPlaying = new System.Windows.Forms.PictureBox();
+            this.pb_credits = new System.Windows.Forms.PictureBox();
+            this.pb_creditsPicture = new System.Windows.Forms.PictureBox();
+            this.Player = new AxWMPLib.AxWindowsMediaPlayer();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Headphones_Playing)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Volume)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ValvesOff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Volume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_PlayPause)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Pause)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Headphones_Mute)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_CloseApp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_NextSong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_PrevSong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_LoadGrooves)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_VolumeHover)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_valvesPlaying)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_credits)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_creditsPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pb_Headphones_Playing
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel1.Controls.Add(this.l_trackPositionTimer);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.L_PlayStateLabel);
-            this.panel1.Controls.Add(this.tb_Volume);
-            this.panel1.Controls.Add(this.btn_Previous);
-            this.panel1.Controls.Add(this.btn_Next);
-            this.panel1.Controls.Add(this.btn_Load);
-            this.panel1.Controls.Add(this.btn_Play);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 604);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1581, 108);
-            this.panel1.TabIndex = 1;
-            // 
-            // l_trackPositionTimer
-            // 
-            this.l_trackPositionTimer.AutoSize = true;
-            this.l_trackPositionTimer.Location = new System.Drawing.Point(500, 44);
-            this.l_trackPositionTimer.Name = "l_trackPositionTimer";
-            this.l_trackPositionTimer.Size = new System.Drawing.Size(35, 13);
-            this.l_trackPositionTimer.TabIndex = 6;
-            this.l_trackPositionTimer.Text = "label1";
-            // 
-            // L_PlayStateLabel
-            // 
-            this.L_PlayStateLabel.AutoSize = true;
-            this.L_PlayStateLabel.Location = new System.Drawing.Point(1004, 44);
-            this.L_PlayStateLabel.Name = "L_PlayStateLabel";
-            this.L_PlayStateLabel.Size = new System.Drawing.Size(35, 13);
-            this.L_PlayStateLabel.TabIndex = 4;
-            this.L_PlayStateLabel.Text = "label1";
+            this.pb_Headphones_Playing.Image = global::MusicStation.Properties.Resources.ART_PLAYING_Headphones;
+            this.pb_Headphones_Playing.Location = new System.Drawing.Point(1000, 400);
+            this.pb_Headphones_Playing.Name = "pb_Headphones_Playing";
+            this.pb_Headphones_Playing.Size = new System.Drawing.Size(94, 65);
+            this.pb_Headphones_Playing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pb_Headphones_Playing.TabIndex = 5;
+            this.pb_Headphones_Playing.TabStop = false;
+            this.pb_Headphones_Playing.Click += new System.EventHandler(this.pb_Headphones_Playing_Click);
             // 
             // tb_Volume
             // 
-            this.tb_Volume.Location = new System.Drawing.Point(82, 44);
-            this.tb_Volume.Maximum = 100;
+            this.tb_Volume.Location = new System.Drawing.Point(548, 788);
+            this.tb_Volume.Maximum = 1000;
+            this.tb_Volume.Minimum = -1000;
             this.tb_Volume.Name = "tb_Volume";
-            this.tb_Volume.Size = new System.Drawing.Size(332, 45);
+            this.tb_Volume.Size = new System.Drawing.Size(126, 45);
             this.tb_Volume.TabIndex = 2;
             this.tb_Volume.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tb_Volume.Value = 100;
+            this.tb_Volume.Visible = false;
             this.tb_Volume.ValueChanged += new System.EventHandler(this.tb_Volume_ValueChanged);
-            // 
-            // btn_Previous
-            // 
-            this.btn_Previous.Location = new System.Drawing.Point(632, 33);
-            this.btn_Previous.Name = "btn_Previous";
-            this.btn_Previous.Size = new System.Drawing.Size(75, 37);
-            this.btn_Previous.TabIndex = 2;
-            this.btn_Previous.Text = "Previous";
-            this.btn_Previous.UseVisualStyleBackColor = true;
-            this.btn_Previous.Click += new System.EventHandler(this.btn_Previous_Click);
-            // 
-            // btn_Next
-            // 
-            this.btn_Next.Location = new System.Drawing.Point(844, 33);
-            this.btn_Next.Name = "btn_Next";
-            this.btn_Next.Size = new System.Drawing.Size(75, 37);
-            this.btn_Next.TabIndex = 1;
-            this.btn_Next.Text = "Next";
-            this.btn_Next.UseVisualStyleBackColor = true;
-            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
-            // 
-            // btn_Load
-            // 
-            this.btn_Load.Location = new System.Drawing.Point(1414, 14);
-            this.btn_Load.Name = "btn_Load";
-            this.btn_Load.Size = new System.Drawing.Size(126, 74);
-            this.btn_Load.TabIndex = 3;
-            this.btn_Load.Text = "Load Grooves";
-            this.btn_Load.UseVisualStyleBackColor = true;
-            this.btn_Load.Click += new System.EventHandler(this.btn_Load_Click);
-            // 
-            // btn_Play
-            // 
-            this.btn_Play.Location = new System.Drawing.Point(725, 13);
-            this.btn_Play.Name = "btn_Play";
-            this.btn_Play.Size = new System.Drawing.Size(93, 74);
-            this.btn_Play.TabIndex = 0;
-            this.btn_Play.Text = "Play";
-            this.btn_Play.UseVisualStyleBackColor = true;
-            this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel2.Controls.Add(this.btn_Mover);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.lbl_Ttitle);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1581, 102);
-            this.panel2.TabIndex = 5;
-            // 
-            // btn_Mover
-            // 
-            this.btn_Mover.BackColor = System.Drawing.SystemColors.InfoText;
-            this.btn_Mover.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_Mover.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
-            this.btn_Mover.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.btn_Mover.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_Mover.Location = new System.Drawing.Point(235, 3);
-            this.btn_Mover.Name = "btn_Mover";
-            this.btn_Mover.Size = new System.Drawing.Size(1222, 21);
-            this.btn_Mover.TabIndex = 12;
-            this.btn_Mover.Text = "Position";
-            this.btn_Mover.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Mover.UseVisualStyleBackColor = false;
-            this.btn_Mover.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_Mover_MouseDown);
-            this.btn_Mover.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Mover_MouseMove);
-            this.btn_Mover.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_Mover_MouseUp);
-            // 
-            // lbl_Ttitle
-            // 
-            this.lbl_Ttitle.AutoSize = true;
-            this.lbl_Ttitle.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Ttitle.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbl_Ttitle.Location = new System.Drawing.Point(30, 9);
-            this.lbl_Ttitle.Name = "lbl_Ttitle";
-            this.lbl_Ttitle.Size = new System.Drawing.Size(298, 81);
-            this.lbl_Ttitle.TabIndex = 0;
-            this.lbl_Ttitle.Text = "GROOVE BOX";
-            // 
             // lb_Songs
             // 
             this.lb_Songs.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lb_Songs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Songs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_Songs.FormattingEnabled = true;
-            this.lb_Songs.ItemHeight = 20;
-            this.lb_Songs.Location = new System.Drawing.Point(976, 164);
+            this.lb_Songs.Location = new System.Drawing.Point(269, 486);
             this.lb_Songs.Name = "lb_Songs";
-            this.lb_Songs.Size = new System.Drawing.Size(331, 380);
+            this.lb_Songs.Size = new System.Drawing.Size(168, 91);
             this.lb_Songs.TabIndex = 6;
             this.lb_Songs.SelectedIndexChanged += new System.EventHandler(this.lb_Songs_SelectedIndexChanged);
             this.lb_Songs.DoubleClick += new System.EventHandler(this.lb_Songs_DoubleClick);
             // 
             // pb_SongProgress
             // 
-            this.pb_SongProgress.Location = new System.Drawing.Point(12, 564);
+            this.pb_SongProgress.Location = new System.Drawing.Point(269, 677);
             this.pb_SongProgress.Name = "pb_SongProgress";
-            this.pb_SongProgress.Size = new System.Drawing.Size(1557, 23);
+            this.pb_SongProgress.Size = new System.Drawing.Size(646, 23);
             this.pb_SongProgress.TabIndex = 7;
             this.pb_SongProgress.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pb_SongProgress_MouseDown);
             // 
@@ -223,138 +126,234 @@
             // lb_Runtime
             // 
             this.lb_Runtime.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lb_Runtime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lb_Runtime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.lb_Runtime.FormattingEnabled = true;
-            this.lb_Runtime.ItemHeight = 20;
-            this.lb_Runtime.Location = new System.Drawing.Point(1304, 164);
+            this.lb_Runtime.Location = new System.Drawing.Point(443, 486);
             this.lb_Runtime.Name = "lb_Runtime";
-            this.lb_Runtime.Size = new System.Drawing.Size(100, 380);
+            this.lb_Runtime.Size = new System.Drawing.Size(59, 130);
             this.lb_Runtime.TabIndex = 8;
             // 
-            // lbl_Tracks
+            // pb_ValvesOff
             // 
-            this.lbl_Tracks.AutoSize = true;
-            this.lbl_Tracks.BackColor = System.Drawing.SystemColors.Window;
-            this.lbl_Tracks.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.lbl_Tracks.Location = new System.Drawing.Point(3, 8);
-            this.lbl_Tracks.Name = "lbl_Tracks";
-            this.lbl_Tracks.Size = new System.Drawing.Size(66, 24);
-            this.lbl_Tracks.TabIndex = 9;
-            this.lbl_Tracks.Text = "Tracks";
+            this.pb_ValvesOff.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_ValvesOff.BackgroundImage")));
+            this.pb_ValvesOff.Location = new System.Drawing.Point(1, -1);
+            this.pb_ValvesOff.Name = "pb_ValvesOff";
+            this.pb_ValvesOff.Size = new System.Drawing.Size(1236, 389);
+            this.pb_ValvesOff.TabIndex = 13;
+            this.pb_ValvesOff.TabStop = false;
             // 
-            // lbl_Runtime
+            // pb_Volume
             // 
-            this.lbl_Runtime.AutoSize = true;
-            this.lbl_Runtime.BackColor = System.Drawing.SystemColors.Window;
-            this.lbl_Runtime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.lbl_Runtime.Location = new System.Drawing.Point(333, 8);
-            this.lbl_Runtime.Name = "lbl_Runtime";
-            this.lbl_Runtime.Size = new System.Drawing.Size(80, 24);
-            this.lbl_Runtime.TabIndex = 10;
-            this.lbl_Runtime.Text = "Runtime";
+            this.pb_Volume.Image = global::MusicStation.Properties.Resources.ART_BASE_Volume;
+            this.pb_Volume.Location = new System.Drawing.Point(952, 478);
+            this.pb_Volume.Name = "pb_Volume";
+            this.pb_Volume.Size = new System.Drawing.Size(231, 248);
+            this.pb_Volume.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pb_Volume.TabIndex = 15;
+            this.pb_Volume.TabStop = false;
+            this.pb_Volume.Click += new System.EventHandler(this.pb_Volume_Click);
+            this.pb_Volume.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pb_Volume_MouseMove);
+            this.pb_Volume.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pb_Volume_MouseUp);
             // 
-            // panel3
+            // pb_PlayPause
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Window;
-            this.panel3.Controls.Add(this.lbl_Tracks);
-            this.panel3.Controls.Add(this.lbl_Runtime);
-            this.panel3.Location = new System.Drawing.Point(976, 120);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(428, 38);
-            this.panel3.TabIndex = 11;
+            this.pb_PlayPause.Image = global::MusicStation.Properties.Resources.ART_HOVER_Play;
+            this.pb_PlayPause.Location = new System.Drawing.Point(809, 503);
+            this.pb_PlayPause.Name = "pb_PlayPause";
+            this.pb_PlayPause.Size = new System.Drawing.Size(111, 112);
+            this.pb_PlayPause.TabIndex = 16;
+            this.pb_PlayPause.TabStop = false;
+            this.pb_PlayPause.Click += new System.EventHandler(this.pb_PlayPause_Click);
+            // 
+            // pb_Pause
+            // 
+            this.pb_Pause.Image = global::MusicStation.Properties.Resources.ART_PLAYING_Pause;
+            this.pb_Pause.Location = new System.Drawing.Point(810, 503);
+            this.pb_Pause.Name = "pb_Pause";
+            this.pb_Pause.Size = new System.Drawing.Size(111, 112);
+            this.pb_Pause.TabIndex = 17;
+            this.pb_Pause.TabStop = false;
+            this.pb_Pause.Click += new System.EventHandler(this.pb_Pause_Click);
+            // 
+            // pb_Headphones_Mute
+            // 
+            this.pb_Headphones_Mute.Image = global::MusicStation.Properties.Resources.ART_HOVER_HeadphonesMute;
+            this.pb_Headphones_Mute.Location = new System.Drawing.Point(1000, 400);
+            this.pb_Headphones_Mute.Name = "pb_Headphones_Mute";
+            this.pb_Headphones_Mute.Size = new System.Drawing.Size(94, 65);
+            this.pb_Headphones_Mute.TabIndex = 18;
+            this.pb_Headphones_Mute.TabStop = false;
+            this.pb_Headphones_Mute.Click += new System.EventHandler(this.pb_Headphones_Mute_Click);
+            // 
+            // pb_CloseApp
+            // 
+            this.pb_CloseApp.Image = global::MusicStation.Properties.Resources.ART_HOVER_Close_B;
+            this.pb_CloseApp.Location = new System.Drawing.Point(1237, 365);
+            this.pb_CloseApp.Name = "pb_CloseApp";
+            this.pb_CloseApp.Size = new System.Drawing.Size(103, 101);
+            this.pb_CloseApp.TabIndex = 19;
+            this.pb_CloseApp.TabStop = false;
+            this.pb_CloseApp.Click += new System.EventHandler(this.pb_CloseApp_Click);
+            this.pb_CloseApp.MouseLeave += new System.EventHandler(this.pb_CloseApp_MouseLeave);
+            // 
+            // pb_NextSong
+            // 
+            this.pb_NextSong.Image = global::MusicStation.Properties.Resources.ART_HOVER_NextSong;
+            this.pb_NextSong.Location = new System.Drawing.Point(733, 505);
+            this.pb_NextSong.Name = "pb_NextSong";
+            this.pb_NextSong.Size = new System.Drawing.Size(57, 59);
+            this.pb_NextSong.TabIndex = 20;
+            this.pb_NextSong.TabStop = false;
+            this.pb_NextSong.Click += new System.EventHandler(this.pb_NextSong_Click);
+            // 
+            // pb_PrevSong
+            // 
+            this.pb_PrevSong.Image = global::MusicStation.Properties.Resources.ART_HOVER_PreviousSong;
+            this.pb_PrevSong.Location = new System.Drawing.Point(558, 506);
+            this.pb_PrevSong.Name = "pb_PrevSong";
+            this.pb_PrevSong.Size = new System.Drawing.Size(57, 59);
+            this.pb_PrevSong.TabIndex = 21;
+            this.pb_PrevSong.TabStop = false;
+            this.pb_PrevSong.Click += new System.EventHandler(this.pb_PrevSong_Click);
+            // 
+            // pb_LoadGrooves
+            // 
+            this.pb_LoadGrooves.Image = global::MusicStation.Properties.Resources.ART_HOVER_Load;
+            this.pb_LoadGrooves.Location = new System.Drawing.Point(645, 505);
+            this.pb_LoadGrooves.Name = "pb_LoadGrooves";
+            this.pb_LoadGrooves.Size = new System.Drawing.Size(57, 59);
+            this.pb_LoadGrooves.TabIndex = 22;
+            this.pb_LoadGrooves.TabStop = false;
+            this.pb_LoadGrooves.Click += new System.EventHandler(this.pb_LoadGrooves_Click);
+            // 
+            // pb_VolumeHover
+            // 
+            this.pb_VolumeHover.Image = global::MusicStation.Properties.Resources.ART_HOVER_Volume;
+            this.pb_VolumeHover.Location = new System.Drawing.Point(947, 477);
+            this.pb_VolumeHover.Name = "pb_VolumeHover";
+            this.pb_VolumeHover.Size = new System.Drawing.Size(218, 210);
+            this.pb_VolumeHover.TabIndex = 23;
+            this.pb_VolumeHover.TabStop = false;
+            // 
+            // pb_valvesPlaying
+            // 
+            this.pb_valvesPlaying.Image = global::MusicStation.Properties.Resources.ART_PLAYING_Valves;
+            this.pb_valvesPlaying.Location = new System.Drawing.Point(176, 54);
+            this.pb_valvesPlaying.Name = "pb_valvesPlaying";
+            this.pb_valvesPlaying.Size = new System.Drawing.Size(1051, 334);
+            this.pb_valvesPlaying.TabIndex = 24;
+            this.pb_valvesPlaying.TabStop = false;
+            // 
+            // pb_credits
+            // 
+            this.pb_credits.Image = global::MusicStation.Properties.Resources.ART_HOVER_Credits;
+            this.pb_credits.Location = new System.Drawing.Point(184, 533);
+            this.pb_credits.Name = "pb_credits";
+            this.pb_credits.Size = new System.Drawing.Size(50, 49);
+            this.pb_credits.TabIndex = 25;
+            this.pb_credits.TabStop = false;
+            this.pb_credits.Click += new System.EventHandler(this.pb_credits_Click);
+            // 
+            // pb_creditsPicture
+            // 
+            this.pb_creditsPicture.Image = global::MusicStation.Properties.Resources.CREDITS__3_;
+            this.pb_creditsPicture.Location = new System.Drawing.Point(443, 246);
+            this.pb_creditsPicture.Name = "pb_creditsPicture";
+            this.pb_creditsPicture.Size = new System.Drawing.Size(503, 506);
+            this.pb_creditsPicture.TabIndex = 26;
+            this.pb_creditsPicture.TabStop = false;
+            this.pb_creditsPicture.Click += new System.EventHandler(this.pb_creditsPicture_Click);
             // 
             // Player
             // 
             this.Player.Enabled = true;
-            this.Player.Location = new System.Drawing.Point(44, 474);
+            this.Player.Location = new System.Drawing.Point(548, 743);
             this.Player.Name = "Player";
             this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
-            this.Player.Size = new System.Drawing.Size(442, 70);
+            this.Player.Size = new System.Drawing.Size(198, 39);
             this.Player.TabIndex = 0;
             this.Player.MediaError += new AxWMPLib._WMPOCXEvents_MediaErrorEventHandler(this.Player_MediaError);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MusicStation.Properties.Resources.icons8_close_window_100;
-            this.pictureBox1.InitialImage = global::MusicStation.Properties.Resources.icons8_close_window_100;
-            this.pictureBox1.Location = new System.Drawing.Point(1481, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MusicStation.Properties.Resources.icons8_mute_unmute_48;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 33);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // GrooveStation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.BackgroundImage = global::MusicStation.Properties.Resources.ValveAmpBase_JPG;
-            this.ClientSize = new System.Drawing.Size(1581, 712);
-            this.Controls.Add(this.panel3);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::MusicStation.Properties.Resources.ART_BASE_Amp1;
+            this.ClientSize = new System.Drawing.Size(1581, 841);
+            this.Controls.Add(this.pb_creditsPicture);
+            this.Controls.Add(this.pb_credits);
+            this.Controls.Add(this.pb_valvesPlaying);
+            this.Controls.Add(this.pb_VolumeHover);
+            this.Controls.Add(this.pb_LoadGrooves);
+            this.Controls.Add(this.pb_PrevSong);
+            this.Controls.Add(this.pb_NextSong);
+            this.Controls.Add(this.pb_CloseApp);
+            this.Controls.Add(this.pb_Pause);
+            this.Controls.Add(this.pb_PlayPause);
+            this.Controls.Add(this.pb_Volume);
+            this.Controls.Add(this.tb_Volume);
+            this.Controls.Add(this.pb_Headphones_Playing);
             this.Controls.Add(this.lb_Runtime);
             this.Controls.Add(this.pb_SongProgress);
             this.Controls.Add(this.lb_Songs);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.Player);
+            this.Controls.Add(this.pb_ValvesOff);
+            this.Controls.Add(this.pb_Headphones_Mute);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GrooveStation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GrooveStation";
-            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(119)))));
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GrooveStation_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.GrooveStation_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.GrooveStation_MouseUp);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Headphones_Playing)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Volume)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ValvesOff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Volume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_PlayPause)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Pause)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Headphones_Mute)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_CloseApp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_NextSong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_PrevSong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_LoadGrooves)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_VolumeHover)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_valvesPlaying)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_credits)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_creditsPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private AxWMPLib.AxWindowsMediaPlayer Player;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btn_Previous;
-        private System.Windows.Forms.Button btn_Next;
-        private System.Windows.Forms.Button btn_Play;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button btn_Load;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lbl_Ttitle;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ListBox lb_Songs;
         private System.Windows.Forms.ProgressBar pb_SongProgress;
-        private System.Windows.Forms.Label L_PlayStateLabel;
         private System.Windows.Forms.TrackBar tb_Volume;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pb_Headphones_Playing;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ListBox lb_Runtime;
-        private System.Windows.Forms.Label lbl_Tracks;
-        private System.Windows.Forms.Label lbl_Runtime;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label l_trackPositionTimer;
-        private System.Windows.Forms.Button btn_Mover;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.PictureBox pb_ValvesOff;
+        private System.Windows.Forms.PictureBox pb_Volume;
+        private System.Windows.Forms.PictureBox pb_PlayPause;
+        private System.Windows.Forms.PictureBox pb_Pause;
+        private System.Windows.Forms.PictureBox pb_Headphones_Mute;
+        private System.Windows.Forms.PictureBox pb_CloseApp;
+        private System.Windows.Forms.PictureBox pb_NextSong;
+        private System.Windows.Forms.PictureBox pb_PrevSong;
+        private System.Windows.Forms.PictureBox pb_LoadGrooves;
+        private System.Windows.Forms.PictureBox pb_VolumeHover;
+        private System.Windows.Forms.PictureBox pb_valvesPlaying;
+        private System.Windows.Forms.PictureBox pb_credits;
+        private System.Windows.Forms.PictureBox pb_creditsPicture;
     }
 }
 
